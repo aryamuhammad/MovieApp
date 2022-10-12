@@ -1,0 +1,47 @@
+:root {
+    /* color*/
+    --primaryColor:#D81F26;
+    --secondaryColor:#1b1e23;
+
+    /* Font */
+    --mainFont :'Open Sans', sans-serif;
+    --headingFont:'Poppins', sans-serif;
+}
+body {
+    font-family: var(--mainFont);
+    padding-bottom: 100px;
+}
+
+.bg-white {
+    background-color: white;
+}
+.bg-utama {
+    background-color: var(--primaryColor);
+}
+.text-red {
+    color: var(--primaryColor);
+}
+.button {
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor);
+}
+.button:hover {
+    background-color: var(--primaryColor);
+    color: white;
+}
+.test {
+    border: 1px solid black;
+}
+.title-rating {
+    /* border: 1px solid black; */
+    gap: 30px;
+}
+/* .title-rating > * {
+    border: 1px solid red;
+} */
+.rating {
+    color: white;
+    background-color: rgba(255,149,41,1);
+    padding: 5px 10px;
+    border-radius: 3px;
+}
